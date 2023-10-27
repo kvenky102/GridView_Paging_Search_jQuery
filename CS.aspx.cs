@@ -37,6 +37,7 @@ public partial class CS : System.Web.UI.Page
         gvCustomers.DataBind();
     }
 
+   // static Web Method //
     [WebMethod]
     public static string GetCustomers(string searchTerm, int pageIndex)
     {
