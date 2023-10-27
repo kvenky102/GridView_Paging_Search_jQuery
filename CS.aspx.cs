@@ -79,6 +79,7 @@ public partial class CS : System.Web.UI.Page
         }
     }
 
+// static GetCustomerDetails Method //
     [WebMethod]
     public static string GetCustomerDetails(string id)
     {
