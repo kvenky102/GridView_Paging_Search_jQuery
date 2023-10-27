@@ -23,6 +23,7 @@ public partial class CS : System.Web.UI.Page
 
     private void BindDummyRow()
     {
+        // static datatable //
         DataTable dummy = new DataTable();
         dummy.Columns.Add("Case_Owner");
         dummy.Columns.Add("UPF_ID");
