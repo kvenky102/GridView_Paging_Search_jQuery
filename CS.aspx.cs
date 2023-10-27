@@ -37,6 +37,7 @@ public partial class CS : System.Web.UI.Page
         gvCustomers.DataBind();
     }
 
+   // static Web Method //
     [WebMethod]
     public static string GetCustomers(string searchTerm, int pageIndex)
     {
@@ -50,6 +51,7 @@ public partial class CS : System.Web.UI.Page
         return GetData(cmd, pageIndex).GetXml();
     }
 
+// static Web Method //
     private static DataSet GetData(SqlCommand cmd, int pageIndex)
     {
         string strConnString = ConfigurationManager.ConnectionStrings["conString"].ConnectionString;
