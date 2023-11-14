@@ -54,18 +54,7 @@
         {
             background-color: #FFFFAF;
         }
-         .highlight_New
-        {
-            background-color: #FFFFAF;
-        }
-         .highlight_bg
-        {
-            background-color: #FFFFAF;
-        }
-          .highlight_bg1
-        {
-            background-color: #FFFFAF;
-        }
+       
     </style>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="ASPSnippets_Pager.min.js" type="text/javascript"></script>
